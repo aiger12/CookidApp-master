@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ObserverPatternTest {
     Scanner scanner = new Scanner(System.in);
 
-    public void beginnnn() {
+    public void begin() {
         System.out.println("Good day! Please, enter your name(as in Moodle portal):\n");
         String name = scanner.nextLine();
         //create subject
