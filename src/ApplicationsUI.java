@@ -38,7 +38,7 @@ public class ApplicationsUI {
                     break;
                 case 4:
                     ObserverPatternTest observer=new ObserverPatternTest();
-                    observer.begin();
+                    observer.beginnnn();
                     break;
                 case 5:
                     System.out.println("App does not exists!");

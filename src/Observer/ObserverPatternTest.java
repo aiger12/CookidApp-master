@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ObserverPatternTest {
     Scanner scanner = new Scanner(System.in);
 
-    public void begin() {
+    public void beginnnn() {
         System.out.println("Good day! Please, enter your name(as in Moodle portal):\n");
         String name = scanner.nextLine();
         //create subject
@@ -16,7 +16,7 @@ public class ObserverPatternTest {
         IObserver obj1 = new Student(name);
         System.out.println("Halo,"+name+"!\n");
         //register observers to the subject
-        topic.add(obj1);;
+        topic.add(obj1);
 
         //now send message to subject
         topic.postMessage("Schedule UPDATED FINALLY!");
